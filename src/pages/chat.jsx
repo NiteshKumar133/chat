@@ -11,7 +11,7 @@ while (user.length <=3){
 }
 
 export default function Chat() {
-  const URL = 'http://localhost:3001';
+  const URL = 'https://chat-api-delta.vercel.app/';
   const [data, setdata] = useState();
   const [array, setarray] = useState([]);
   const [id, setid] = useState("");

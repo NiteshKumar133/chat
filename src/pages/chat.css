@@ -1,0 +1,145 @@
+.Cimageion {
+    font-size: 30px;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   color: black;
+
+}
+
+.box-container {
+    height: 85vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    margin-top: 76px;
+}
+
+.message-container {
+    height: 75vh;
+    width: 60vw;
+    border-radius: 6px 6px 5px 5px;
+    outline: 2px solid rgb(112, 101, 101);
+    padding: 20px 15px 0;
+    overflow-y: auto;
+}
+
+.message-container::-webkit-scrollbar {
+    width: 4px;
+}
+
+.message-container::-webkit-scrollbar-track {
+    box-shadow: 0 0 6px rgba(37, 36, 36, 0.3);
+
+  border-top-right-radius: 80px;
+}
+
+.message-container::-webkit-scrollbar-thumb {
+    background-color: rgb(174, 174, 174);
+
+}
+
+.send-msg-icon {
+    height: 35px;
+    width: 35px;
+    transition: transform 0.3s ease;
+}
+
+.image-container {
+    height: 42px;
+    width: 60px;
+    background-color: #e8eaf6;
+    border-radius: 0 10px 10px 0;
+    outline: 2px solid black;
+    display: grid;
+    place-items: center;
+}
+
+.image-container:hover img {
+    transform: translateX(7px);
+}
+
+.send-msg-icon:hover {
+    cursor: pointer;
+}
+
+.input-box {
+    width: 57vw;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 25px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: 2px solid black;
+}
+
+.bottom-container {
+    width: 64vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.top-bottom {
+    display: grid;
+    place-items: center;
+    width: 63vw;
+    margin-bottom: 10px;
+
+}
+
+.message {
+    background-color: #ede7f6;
+    width: max-content;
+    padding: 0 10px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    font-size: 25px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    max-width: 40vw;
+    height: auto;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+@media screen and (max-width:426px) {
+.top-bottom{
+        width: 100vw;
+    }
+    .message-container{
+        width: 88vw;
+    }
+   .bottom-container{
+    width: 100vw;
+   }
+   .top-bottom{
+    margin-top: -8px;
+   }
+   .input-box{
+    width: 81vw;
+   }
+   .image-container{
+    width: 50px;
+   }
+}
+
+
+
+@media screen and (max-width:769px) and (min-width:426px) {
+    .top-bottom{
+            width: 100vw;
+        }
+        .message-container{
+            width: 88vw;
+        }
+       .bottom-container{
+        width: 100vw;
+       }
+       .top-bottom{
+        margin-top: 5px;
+       }
+       .input-box{
+        width: 82vw;
+       }
+       .image-container{
+        width: 55px;
+       }
+    }

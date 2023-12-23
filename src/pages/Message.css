@@ -1,0 +1,23 @@
+.messageBox{
+    background-color: rgb(184,255,194);
+    width: max-content;
+    padding: 0 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    max-width: 40vw;
+    height: auto;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+.right {
+    float: right;
+    clear: both;
+    background-color:chocolate;
+}
+
+.left {
+    float: left;
+    clear: both;
+
+}

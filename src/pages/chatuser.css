@@ -1,0 +1,45 @@
+.logo-name {
+    height: 10vh;
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-name-container{
+    background-color: #a6ade8;
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+}
+
+.profile-pic {
+    height: 60px;
+    width: 60px;
+}
+.moon-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 230px;
+}
+.moon-container a{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 5px 5px;
+    border-radius: 8px;
+}
+.moon-light{
+    height: 40px;
+    border-radius: 50%;
+}
+.right{
+    float: right;
+    clear: both;
+    background-color:#e0f2f1;
+}
+.left{
+    float: left;
+    clear: both;
+}
